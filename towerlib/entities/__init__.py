@@ -56,7 +56,8 @@ from towerlib.entities.core import (Entity,
                                     VERBOSITY_LEVELS,
                                     Cluster,
                                     ClusterInstance,
-                                    EntityManager)
+                                    EntityManager,
+                                    Label)
 from towerlib.entities.organization import Organization
 from towerlib.entities.project import Project
 from towerlib.entities.team import Team
@@ -139,3 +140,4 @@ assert InventoryScript
 assert Schedule
 assert Settings
 assert Saml
+assert Label
